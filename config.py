@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "27383453"))
-API_HASH = getenv("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa")
+API_ID = int(getenv("API_ID", "24720814"))
+API_HASH = getenv("API_HASH", "0c6bf0f5cfd7bdcce6f607d15f9896e6")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = int(getenv("OWNER_ID", "7738449961"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rarebit100_db_user:<db_password>@krish.vkgjvmb.mongodb.net/?appName=Krish")
 MUST_JOIN = getenv("MUST_JOIN", "ITSZSHUKLA")
 START_IMG = getenv("START_IMG", "https://files.catbox.moe/520y6h.jpg")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "MASTIWITHFRIENDSXD")
-UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "SHIVANSH474")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "rarebit_gamers")
+UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "KRISH_KAPOOR_SPAM")
